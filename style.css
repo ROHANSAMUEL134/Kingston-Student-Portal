@@ -1,0 +1,251 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top1 {
+    background-color: #104464;
+    height: 2.3rem;
+    display: flex;
+    justify-content: right;
+    padding-right: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.footer {
+    background-color: white;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-info {
+    background-color: #1f81a7;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #d5eddb;
+    font-weight: bolder;
+    padding-left: 4rem;
+    padding-right: 3.5rem;
+    font-size: 15px;
+}
+
+.top1 button {
+    color: white;
+    height: 2.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
+
+.top2 {
+    height: 5rem;
+    border-bottom: #20bce4 4.5px solid;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.7rem;
+    padding-bottom: 0.2rem;
+    position: sticky;
+    top: 2.3rem;
+    z-index: 2;
+}
+
+.top2 img {
+    height: 97.2%;
+    width: 18rem;
+    margin-top: 0.1rem;
+    margin-left: 4rem;
+}
+
+.top2-info {
+    display: flex;
+    height: 100%;
+}
+
+.mail {
+    margin-top: 1.4rem;
+    margin-right: 1rem;
+}
+
+.year {
+    background-color: #20bce4;
+    height: 100%;
+    width: 13rem;
+    margin-top: 0.1rem;
+    color: white;
+}
+
+.year p {
+    font-size: 30px;
+    margin-left: 3.1rem;
+    margin-top: 1rem;
+}
+
+.top3 {
+    background-color: #20bce4;
+    margin-left: 4rem;
+    margin-right: 3.6rem;
+    height: 1.9rem;
+    color: white;
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 14px;
+    font-weight: bolder;
+    position: sticky;
+    top: 7.7rem;
+    z-index: 1;
+}
+
+
+@media (pointer: coarse) {
+    body {
+        touch-action: manipulation;
+    }
+}
+
+.main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding : 2% 2% 2% 2% ;
+    border: #438aca 1.2px solid;
+    display: flex;    
+    overflow: hidden;
+}
+
+.main-icons {
+    height: 100%;
+    width: 70%;
+}
+
+.main-info {
+    height: 100%;
+    flex: 1;
+}
+
+.icon-line {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon {
+    width: 9rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.main-icon{
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.icon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20bce4;
+    width: 4.5rem;
+    height: 4.7rem;
+    margin-left: 2rem;
+    border-radius: 0.6rem;
+    border: white 2.5px solid;
+    cursor: pointer;
+    box-shadow: -0.2rem 0.1rem 0.3rem 0rem rgba(0, 0, 0, 0.2);
+}
+
+.icon-img i {
+    font-size: 3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.icon-info p {
+    font-size: small;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+}
+
+
+.info1 {
+    background-color: #f9d6da;
+    height: 6rem;
+    font-size: 14px;
+    color: #771d24;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.info2 {
+    background-color: #d5eddb;
+    color: #145737;
+    height: 7rem;
+    font-size: 14px;
+    border-radius: 0.3rem;
+    margin-top: 3rem;
+    padding-left: 0.3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-weight: 5px;
+}
+
+.info2 a {
+    text-decoration: none;
+}
+
+
+
+.main-icon:hover {
+    .test{
+        background-color:#20bce4;
+    }
+}
+
+.test {
+    background-color: #e0544c;
+}
+
+.t1,
+.t2 {
+    margin-top: 1rem;
+}
+
+.icon {
+    transition: transform 0.25s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    box-shadow: -0.2rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    color: #548cc3;
+}
+.password-btn{
+    background-color:#f0ad4e; 
+    width: 11rem;
+}
+.password-btn:hover {
+    background-color: #ec9a28; 
+}
+.logout-btn{
+    background-color:#d9524e; 
+    width: 5.9rem;
+}
+.logout-btn:hover {
+    background-color: #e62821; 
+}
