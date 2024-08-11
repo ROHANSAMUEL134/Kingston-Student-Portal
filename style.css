@@ -49,8 +49,14 @@ body {
     margin-top: 0.1rem;
 }
 
+#sp{
+    height: 100px;
+    width:auto;
+    transform: translateX(-30px);
+}
+
 .top2 {
-    height: 5rem;
+    height: 7rem;
     border-bottom: #20bce4 4.5px solid;
     background-color: white;
     display: flex;
@@ -75,37 +81,55 @@ body {
 }
 
 .mail {
-    margin-top: 1.4rem;
+    margin-top: 2.3rem;
     margin-right: 1rem;
 }
 
 .year {
     background-color: #20bce4;
-    height: 100%;
-    width: 13rem;
-    margin-top: 0.1rem;
+    height: 70%;
+    width: 9rem;
+    margin-top: 1.2rem;
     color: white;
-}
-
-.year p {
-    font-size: 30px;
-    margin-left: 3.1rem;
-    margin-top: 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: -0.2rem 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 .top3 {
     background-color: #20bce4;
     margin-left: 4rem;
     margin-right: 3.6rem;
-    height: 1.9rem;
+    height: 2.5rem;
     color: white;
     text-align: right;
     padding-right: 1rem;
     font-size: 14px;
     font-weight: bolder;
     position: sticky;
-    top: 7.7rem;
+    top: 9.7rem;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.top3 p{
+    margin-left: 10px;
+}
+
+#profile{
+    height:33px;
+    border-radius: 50%;
+    margin-left: 10px;
 }
 
 
@@ -183,7 +207,7 @@ body {
 
 .info1 {
     background-color: #f9d6da;
-    height: 6rem;
+    height: 4rem;
     font-size: 14px;
     color: #771d24;
     border-radius: 0.3rem;
@@ -208,7 +232,18 @@ body {
     text-decoration: none;
 }
 
+.curr{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: -0.2rem 0.1rem 0.4rem 0.2rem rgb(84, 202, 84);
+}
 
+.curr p bold{
+    font-weight: 800;
+    
+}
 
 .main-icon:hover {
     .test{
